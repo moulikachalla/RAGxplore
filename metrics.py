@@ -17,7 +17,7 @@ def load_feedback_data():
 
 def render_dashboard():
     st.set_page_config(layout="wide")
-    st.markdown("<h1>AllyIn Compass - Observability Dashboard</h1>", unsafe_allow_html=True)
+    st.markdown("<h1>RAGxplore - Observability Dashboard</h1>", unsafe_allow_html=True)
 
     df = load_feedback_data()
     
